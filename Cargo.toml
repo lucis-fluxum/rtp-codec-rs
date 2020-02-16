@@ -1,0 +1,12 @@
+[package]
+name = "rtp-codec"
+version = "0.0.0"
+authors = ["Luc Street <lucis-fluxum@users.noreply.github.com>"]
+description = "Encoding / decoding utilities for RTP.\n"
+repository = "https://github.com/lucis-fluxum/rtp-codec-rs"
+keywords = ["streaming", "media", "codec", "rtp"]
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+tokio-util = { version = "0.2", features = ["full"] }
